@@ -108,6 +108,12 @@ section {
     padding: 0 30px;
 }
 
+section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 /* Section Main  */
 section.main {
     margin-top: 20px;
