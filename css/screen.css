@@ -114,7 +114,7 @@ section::after {
     clear: both;
 }
 
-/* Section Main  */
+/* Section - Main  */
 section.main {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -153,4 +153,18 @@ section.main aside .content.find-it {
 
 section.main aside .content.tools {
     background-image: url(../images/icon_gear.svg);
+}
+
+/* Section - Atmosphere */
+section.atmosphere {
+    background-color: #cc6633;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+section.atmosphere article {
+    padding: 0 20px 0 515px;
+    background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
+    min-height: 220px;
 }
